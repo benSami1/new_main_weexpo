@@ -1,6 +1,6 @@
-
+import React from "react";
 import { useState, useEffect, useRef } from "react";
-
+import ChatBubblev1 from "./ChatBubblev1";
 import ChatBubblev2 from "./ChatBubbleV2";
 import ChatHistory from "./ChatHistory";
 import reset from "../../assets/reset.png";
@@ -169,7 +169,7 @@ const ChatBubble = (props) => {
 
   return (
     <section className="ChatBubble">
-  
+      
       {chatHistory === "Show" && (
         <ChatHistory
           history={history}

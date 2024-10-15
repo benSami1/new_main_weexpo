@@ -58,7 +58,7 @@ const ChatBubblev2 = (props) => {
 
         {/* Logo Section */}
         <div className="logo" style={{ paddingLeft: "10px" }}>
-          <img src={logo} height="25px" width="80px" alt="Logo" />
+          <img src={logo} height="25px" width="40px" alt="Logo" />
         </div>
       </div>
     </section>
