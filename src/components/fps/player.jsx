@@ -20,7 +20,7 @@ export function Player({ lerp = THREE.MathUtils.lerp }) {
       state.camera.position.set(
         ref.current?.translation().x,
         ref.current?.translation().y + 0.5,
-        ref.current?.translation().z -2.2
+        ref.current?.translation().z - 2.2
       );
       // movement
      

@@ -2,7 +2,7 @@ import { Canvas } from '@react-three/fiber'
 import { KeyboardControls, Loader } from '@react-three/drei'
 
 import { Experience } from '../components/Experience'
-import { useConvaiClient } from '../../src/hooks/useConvaiClient'
+import { useConvaiClient } from '../components/hooks/useConvaiClient'
 import ChatBubble from '../components/chat/Chat'
 import styles from '../components/Chatbox.module.css' // Custom CSS styles
 
@@ -29,7 +29,7 @@ function Convai() {
           shadows
           camera={{
             position: [0, 0.8, 3],
-            fov: 75
+            fov: 75 
           }}
           className={styles.canvas}
         >
