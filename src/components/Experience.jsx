@@ -33,7 +33,7 @@ export const Experience = ({ client }) => {
       />
 
       {/* models */}
-      <Stats />
+   
       <Suspense>
         <Physics gravity={gravity}>
           <ConvaiFPS />

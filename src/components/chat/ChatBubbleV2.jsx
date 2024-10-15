@@ -51,7 +51,7 @@ const ChatBubblev2 = (props) => {
             }}
             onChange={handleChange}
             value={value}
-            placeholder="Press [T] to talk or type your response here"
+            placeholder=" Type Here"
             type="text"
           />
         </form>

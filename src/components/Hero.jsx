@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Explore the Possibilities of&nbsp;AI&nbsp;Chatting with {` `}
+          Revolutionize Communication with {` `}, Your AI-powered Personal Assistant &nbsp;
             <span className="inline-block relative">
               N.I.N.A{" "}
               <img
@@ -36,8 +36,8 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleash the power of AI within Brainwave. Upgrade your productivity
-            with Brainwave, the open AI chat app.
+            Unleash the power of AI within WeExpo. Upgrade your productivity
+            with N.I.N.A, Book your Demo ↓.
           </p>
           <Button href="https://calendly.com/whiteelephantsdemo" white>
           Get Demo
