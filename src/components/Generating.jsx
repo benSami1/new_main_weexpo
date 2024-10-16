@@ -5,7 +5,7 @@ import { loading } from "../assets";
 const Generating = ({ className }) => {
   // Array of lines to display
   const lines = [
-    "AI is generating...",
+    "Nina is generating...",
     "Processing data to enhance performance...",
     "Creating personalized experiences just for you..."
   ];
